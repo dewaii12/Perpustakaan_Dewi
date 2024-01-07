@@ -1,0 +1,350 @@
+body {
+  background-image: url('./components/aset/perpus.jpg');
+}
+
+main {
+  padding: 20px;
+}
+
+.wrap {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#Home {
+  text-align: center;
+  padding: 50px;
+  background-color: #fffffec5;
+  border-radius: 8px;
+  margin-top: 280px;
+  box-shadow: 0px 4px 8px rgb(107, 47, 1);
+}
+
+#Home h1 {
+  font-size: 2.5em;
+  color: #000000;
+  padding-top: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 30px;
+  margin-top: -30px;
+
+}
+
+#Home p {
+  font-size: 20px;
+  margin-bottom: 30px;
+  color: #431b02;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1em;
+  text-align: center;
+  text-decoration: none;
+  background-color: #3e1801;
+  color: #fff;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #7e2102;
+}
+
+
+.form-container h2 {
+  font-size: 30px;
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.form-container p {
+  font-style: italic;
+  text-align: center;
+}
+
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+
+input {
+  width: 12cm;
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+button {
+  background-color:  #3e1801;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 162px;
+}
+
+button:hover {
+  background-color: #7e2102;
+}
+
+input:focus {
+  background-color: #f5f5f5;
+}
+
+.image-container {
+  width: 1050px;
+  display: flex;
+  align-items: center;
+  background-color: #ffffffa0;
+  border-radius: 5px;
+  margin-top: 80px;
+  padding: 25px; 
+  margin-left: 37px;
+  box-shadow: 0 0 10px rgb(191, 58, 21);
+}
+
+.book-image1 {
+  width: 250px; 
+  height: auto;
+  margin-right: 20px;
+  margin-bottom: 200px;
+  border-radius: 5px;
+  transition: transform 0.3s ease; 
+}
+
+
+.book-image2 {
+  width: 250px; 
+  height: auto;
+  margin-right: 20px;
+  margin-top: 200px;
+  border-radius: 5px;
+  transition: transform 0.10s ease; 
+}
+
+
+.book-image1:hover {
+  transform: scale(1.1);
+}
+
+.book-image2:hover {
+  transform: scale(1.1);
+}
+
+.divider {
+  width: 8px;
+  height: 150px;
+  background-color: #763007;
+  margin: 0 35px 0 20px;
+  transform: rotate(45deg);
+  transition: background-color 0.3s ease; 
+}
+
+
+.divider:hover {
+  background-color: #892504;
+}
+
+.form-container {
+    max-width: 500px;
+    margin: -650px 0 0 1128px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(236, 82, 39);
+    background-color: #eeeae8cd;
+  }
+
+.form-container form {
+  flex: 1; 
+}
+
+h1 {
+  font-size: 45px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: #fff;
+  font-style:normal;
+  margin:250px 0 0 240px;
+  padding-top: 120px;
+}
+
+.image-container p {
+  font-size: 20px;
+  margin-left: 20px;
+  text-align: justify;
+}
+
+nav {
+  background-color: #ffffff; 
+  padding: 15px;
+  height: 45px;
+  width: 101%;
+  margin-left: -18px;
+}
+
+nav a{
+  color: #000000;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  display: inline-block;
+  margin-right: 30px; 
+}
+
+b {
+  font-size: 40px;
+}
+
+.image-container b{
+  font-size: 20px;
+}
+
+h2{
+  padding-top: 10px;
+}
+a {
+  text-decoration: none;
+  color: rgb(0, 0, 0); 
+  font-weight: bold; 
+}
+
+.daftar-peminjaman-container {
+  margin: 40px;
+  padding: 0 30px 0 0;
+ 
+}
+
+h2 {
+  color: #f7f7f7;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  margin-top: 38px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+thead {
+  background-color: #f2f2f2a8;
+}
+
+.daftar-peminjaman-container th {
+  background-color: #f2f2f2b0;
+  text-align: center;
+}
+
+.daftar-peminjaman-container td {
+  background-color: #f2f2f2;
+  text-align: center; 
+}
+
+th,td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #000000;
+}
+
+
+.btn1 {
+  background-color: #b73806;
+}
+
+.btn2 {
+  background-color: #641e02;
+  margin-left: 10px;
+}
+
+.btn3 {
+  background-color: #b73806;
+  margin-left: 10px;
+}
+
+.card h3{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40px;
+  margin-top: 20px;
+}
+
+.card {
+  margin-top: 90px;
+  box-shadow: 0 4px 8px rgb(133, 39, 1);
+  border-radius: 8px;
+}
+
+.card-body {
+  padding: 20px;
+  text-align: left;
+}
+
+.row {
+  margin-bottom: 15px;
+  padding-left: 30px;
+}
+
+label {
+  font-weight: bold;
+}
+
+div {
+  padding-inline-start: 10px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.confirmation-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(173, 58, 5, 0.988);
+  z-index: 999;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.confirmation-modal p {
+  margin-bottom: 20px;
+}
+
+.confirmation-modal button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  background-color: #db5217;
+  color: #333;
+}
+
+.confirmation-modal button:hover {
+  background-color: #f0f0f0;
+}
+
